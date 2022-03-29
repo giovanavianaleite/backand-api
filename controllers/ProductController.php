@@ -4,7 +4,7 @@
             $product = new Product(10, 'Renan','','');
             $$product->create();
         }elseif ($route[1] == 'delete') {
-            $product = new Product(10, 'Renan','','');
+            $product = new Product(2, '','','');
             $product->delete();
         }else{
             echo "Página não econtrada";
